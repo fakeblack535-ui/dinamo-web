@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dinamo Autos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#2d2a26] text-white font-sans">
+
+  <!-- Header -->
+  <header class="bg-[#1c1a18] p-4 flex items-center justify-between shadow-md">
+    <div class="flex items-center space-x-4">
+      <!-- Logo personalizado -->
+      <img src="Imagen de WhatsApp 2025-08-06 a las 20.28.57_4248607e.jpg" alt="Logo Dinamo" class="h-12 w-12 rounded-full object-cover"/>
+      <h1 class="text-2xl font-bold tracking-wider uppercase">Dinamo Autos</h1>
+    </div>
+    <nav class="space-x-6 text-sm">
+      <a href="#modelos" class="hover:underline">Modelos</a>
+      <a href="#comprar" class="hover:underline">Comprar</a>
+      <a href="#ubicacion" class="hover:underline">Ubicación</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-cover bg-center h-[400px] flex items-center justify-center" style="background-image: url('https://images.unsplash.com/photo-1617196038435-185c6a393137');">
+    <div class="bg-black bg-opacity-60 p-6 rounded">
+      <h2 class="text-4xl font-bold uppercase">Fuerza que ruge. Estilo que perdura.</h2>
+      <p class="mt-2 text-lg text-gray-300">Descubrí tu próximo Dinamo.</p>
+    </div>
+  </section>
+
+  <!-- Modelos -->
+  <section id="modelos" class="py-12 px-6 bg-[#3a3732]">
+    <h3 class="text-3xl font-semibold mb-6 text-center">Modelos disponibles</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-[#1f1d1a] p-4 rounded shadow">
+        <img src="https://images.unsplash.com/photo-1616004123738-9d92144b0d70" alt="Dinamo Furia" class="rounded mb-4">
+        <h4 class="text-xl font-bold">Dinamo Furia</h4>
+        <p>Pickup 4x4 - Motor V8 - Diseño robusto</p>
+        <p class="mt-2 text-yellow-400 font-semibold">$28.000 USD</p>
+      </div>
+      <div class="bg-[#1f1d1a] p-4 rounded shadow">
+        <img src="https://images.unsplash.com/photo-1571607389065-dbf3f1c1e76f" alt="Dinamo Urbano" class="rounded mb-4">
+        <h4 class="text-xl font-bold">Dinamo Urbano</h4>
+        <p>SUV compacto - Conectividad total - Eficiencia</p>
+        <p class="mt-2 text-yellow-400 font-semibold">$22.500 USD</p>
+      </div>
+      <div class="bg-[#1f1d1a] p-4 rounded shadow">
+        <img src="https://images.unsplash.com/photo-1598657899752-cfe122a00c5e" alt="Dinamo Clásico" class="rounded mb-4">
+        <h4 class="text-xl font-bold">Dinamo Clásico</h4>
+        <p>Diseño retro - Estilo vintage - Interior de cuero</p>
+        <p class="mt-2 text-yellow-400 font-semibold">$19.000 USD</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Opciones de compra -->
+  <section id="comprar" class="py-12 px-6 bg-[#2d2a26]">
+    <h3 class="text-3xl font-semibold mb-6 text-center">Opciones de compra</h3>
+    <div class="max-w-3xl mx-auto space-y-4">
+      <div class="bg-[#1f1d1a] p-4 rounded shadow">
+        <h4 class="text-xl font-bold">Financiación flexible</h4>
+        <p>Cuotas hasta en 48 meses con tasa preferencial. Ideal para tu primer Dinamo.</p>
+      </div>
+      <div class="bg-[#1f1d1a] p-4 rounded shadow">
+        <h4 class="text-xl font-bold">Plan Canje</h4>
+        <p>Traé tu vehículo usado y obtené descuentos exclusivos en la compra.</p>
+      </div>
+      <div class="bg-[#1f1d1a] p-4 rounded shadow">
+        <h4 class="text-xl font-bold">Compra directa</h4>
+        <p>Pagá al contado y recibí tu Dinamo en 72 horas. Sin vueltas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ubicación -->
+  <section id="ubicacion" class="py-12 px-6 bg-[#3a3732]">
+    <h3 class="text-3xl font-semibold mb-4 text-center">¿Dónde estamos?</h3>
+    <p class="text-center mb-6">Nos encontrás en San Clemente del Tuyú, Provincia de Buenos Aires</p>
+    <div class="flex justify-center">
+      <iframe
+        src="https://www.google.com/maps?q=San+Clemente+del+Tuyú,+Buenos+Aires,+Argentina&output=embed"
+        width="600"
+        height="300"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        class="rounded shadow"
+      ></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#1c1a18] text-sm text-center py-4">
+    © 2025 Dinamo Autos — Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
